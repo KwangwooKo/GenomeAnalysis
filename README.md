@@ -319,6 +319,7 @@ $SAMTOOLS view -f 1024 sample.markup.bam | wc -l
 ## 5. Variant calling
 
 Reading: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://samtools.github.io/hts-specs/VCFv4.2.pdf
+
 Lastly, we will process to find the way of variant calling
 ```bash
 java -jar $GATK4 BaseRecalibrator -I sample.markdup.bam -R ../resource/reference/hg38.chr21.fa --known-sites ../resource/knownsites/hg38_v0_Homo_sapiens_assembly38.known_indels.chr21.vcf.gz -L chr21 -O sample.recal_data.table
