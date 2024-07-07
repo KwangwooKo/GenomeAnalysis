@@ -118,6 +118,7 @@ After installing all dependencies, install make
 apt-get install make
 ```
 cf. make
+
 The commands make and make install are commonly used in the process of building and installing software from source code.
 When you run the make command, it reads the instructions from a file called Makefile (or makefile), which defines how to compile and link the program. 
 The Makefile contains rules and dependencies that dictate how the source files should be compiled into executable binaries or other target files.
@@ -126,6 +127,7 @@ The Makefile contains rules and dependencies that dictate how the source files s
 make
 ```
 cf. make install
+
 After the program has been successfully compiled, you need to install it so that it can be used system-wide. The make install command reads another set of instructions from the Makefile, which typically involves copying the compiled binaries, configuration files, and other necessary files to the appropriate directories in the system (such as /usr/local/bin, /usr/local/lib, etc.).
 
 ```bash
