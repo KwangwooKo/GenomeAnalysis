@@ -186,7 +186,7 @@ nano ~/.bashrc
 ```
 export SAMTOOLS=~/bioinfo_tutorials/tools/samtools-1.20/samtools
 export BWA2=~/bioinfo_tutorials/tools/bwa-mem2-2.0pre2_x64-linux/bwa-mem2
-export GATK4=~/bio~/bioinfo_tutorials/tools/gatk-4.6.0.0/gatk-package-4.6.0.0-l>
+export GATK4=~/bioinfo_tutorials/tools/gatk-4.6.0.0/gatk-package-4.6.0.0-l>
 
 
 ## 2. Workflow
