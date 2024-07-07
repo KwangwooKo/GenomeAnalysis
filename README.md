@@ -1,4 +1,5 @@
 # Genome Analysis Tutorial
+# Reading: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://samtools.github.io/hts-specs/VCFv4.2.pdf
 
 ## 0. Intro
 
